@@ -124,7 +124,7 @@ class SchedulerThread(Thread):
                                                        "incidents": incident_dict}
             results[employee.id] = employee_incident_summary
         # Save the data as a JSON file
-        with open('incident_report.json', 'w') as fp:
+        with open('data/incident_report.json', 'w') as fp:
             json.dump(results, fp)
 
 

@@ -20,7 +20,7 @@ class IncidentViewSet(APIView):
 
         :return: (JSON) The incident reports and a 200 status on success
         """
-        with open('incident_report.json', 'r') as fp:
+        with open('data/incident_report.json', 'r') as fp:
             data = json.load(fp)
 
         return Response(data, status=status.HTTP_200_OK)
