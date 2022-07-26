@@ -102,7 +102,7 @@ celerybeat.pid
 *.sage.py
 
 # Environments
-.env
+#.env # Unfortunately we DO need to pass this through as it's a simple interview question :)
 .venv
 env/
 venv/
