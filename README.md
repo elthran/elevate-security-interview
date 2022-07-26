@@ -11,7 +11,12 @@ Then run `pip3 install -r requirements.txt` to ensure that all required packages
 # Running the App
 
 To start the server you need to run
-`python3 manage.py runserver 9000`
+`python3 manage.py runserver 9000` 
+*Note:* for Windows you may need to use `python manage.py runserver 9000`
+
+Once the console logs "Saved data as JSON", the server is ready.
+
+To fetch data simply visit `http://127.0.0.1:9000/incidents/`
 
 # About the App
 
