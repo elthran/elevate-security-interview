@@ -35,3 +35,4 @@ On a more complex API we would need to come up with a better strategy
 (like exposing lightweight versions of our tables or storing the report as a variable depending on priority)
 - Adding unit tests. If I had more time that would have been the next thing to add to make sure that changes
 to the code don't modify the fetching or reporting functionality.
+- Remove the .db file from the repo and force new users to run the migrations themselves
